@@ -9,15 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="static/img/icons8-portafolio-48.png" type="image/x-icon">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-        </style>
-        <style>
-            body {
-                font-family: 'Roboto-Mono', sans-serif;
-                background-image: linear-gradient(135deg, #a1c4fd 10%, #c2e9fb 90%);
-            }
-        </style>
+    
 
 </head>
 <body>
@@ -34,13 +26,13 @@
                         <a class="nav-link " href="#acerca-de-mi">Acerca de mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#experiencias">Experiencias</a>
+                        <a class="nav-link  " href="#experiencias">Experiencias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#proyectos">Proyectos</a>
+                        <a class="nav-link  " href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#contacto">Contacto</a>
+                        <a class="nav-link  " href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -60,8 +52,8 @@
                 </div>
                 <!-- Columna del título y descripción -->
                 <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="text-center ">Hola, soy Gaby Etchegoyen</h1>
-                    <p class="lead text-center ">Desarrollador Python Jr.</p>
+                    <h1 class="text-center  ">Hola, soy Gaby Etchegoyen</h1>
+                    <p class="lead text-center  ">Desarrollador Python Jr.</p>
                 </div>
             </div>
         </section>
@@ -79,13 +71,13 @@
     
     <!-- Sección Acerca de mí -->
     <section id="acerca-de-mi" class="container " style="margin-top: 150px;">
-        <h2 class="text-center mb-5" >Acerca de mi</h2>
-        <p >Con más de 2 años de experiencia en la creación y optimización de aplicaciones y páginas web, me enfoco en soluciones innovadoras a problemas cotidianos.
+        <h2 class="text-center mb-5  " >Acerca de mi</h2>
+        <p  >Con más de 2 años de experiencia en la creación y optimización de aplicaciones y páginas web, me enfoco en soluciones innovadoras a problemas cotidianos.
            <strong>Me especializo en  desarrollo back-end con enfoque en Python</strong>, especialmente para crear aplicaciones web interactivas y amigables con el usuario.
-            <p  >
+            <p   >
             Durante mi capacitación, adquirí habilidades en front-end tales como HTML, CSS, JS y el uso de frameworks como Bootstrap.
             Mi experiencia también abarca el <strong>framework de desarrollo Django (Python).</strong></p>
-            <p>
+            <p >
             En el ámbito de bases de datos,  <strong>tengo experiencia práctica en MySQL y PostgreSQl.</strong> Mi método de trabajo se alinea con prácticas ágiles como Scrum, y <strong>cuento con habilidades en el control de versiones a través de Git y GitHub.</strong></p>
     </section>
     
@@ -202,6 +194,35 @@
        
            </div>
     </div>
+
+    <!-- Seccion Masonry SisGesTra -->
+
+    <div class="masonry-box" id="sgt" hidden>
+        <button class="close-button" id="closeButtonSgt">X</button>
+        <div class="masonry" id="masonryModal">
+       
+                   
+            
+            <div class="item">
+                <img src="static/img/Sisgestra/Reporte de personal (2).png "alt="Descripción de la imagen 3">
+            </div>
+            <div class="item">
+                <img src="static/img/Sisgestra/Panel Inicio Movimientos.png "alt="Descripción de la imagen 3">
+            </div>
+            <div class="item ">
+                <img  src="static/img/Sisgestra/Panel Movimientos.png" alt="Descripción de la imagen 1">
+            </div>
+            <div class="item ">
+                <img src="static/img/Sisgestra/Reporte de personal.png" alt="Descripción de la imagen 2">
+            </div>
+            <div class="item ">
+                <img src="static/img/Sisgestra/Carga de parte personal.png" alt="Descripción de la imagen 2">
+            </div>
+       
+        </div>
+    </div>
+
+
     
 
     
@@ -216,8 +237,8 @@
                     <div class="card d-flex " style="height: 700px">
                         <img src="static/img/Geosanitas/portada_proyecto.png" class="card-img-top" alt="Imagen de la tarjeta 1">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Geosanitas (App Front-end)</h5>
-                            <p class="card-text">Página web dedicada a localización de establecimientos sanitarios en la ciudad de Córdoba (Argentina), información sobre enfermedades y lesiones y formulario de contacto. <br>Desarrollado con HTML, CSS, Javascript.</p>
+                            <h5 class="card-title text-dark">Geosanitas (App Front-end)</h5>
+                            <p class="card-text text-dark">Página web dedicada a localización de establecimientos sanitarios en la ciudad de Córdoba (Argentina), información sobre enfermedades y lesiones y formulario de contacto. <br>Desarrollado con HTML, CSS, Javascript.</p>
                             <div class="mt-auto">
                                 <button class="btn btn-primary" id="masonry-geosanitas">Imágenes</button>
                                 <a href="https://geosanitas.netlify.app/" class="btn btn-primary">Deploy</a>
@@ -232,8 +253,8 @@
                     <div class="card d-flex " style="height: 700px">
                         <img src="static/img/VWphones/portada_proyecto.png" class="card-img-top" alt="Imagen de la tarjeta 2">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">VW Phones (Web-Full-stack)</h5>
-                            <p class="card-text">Página web que simula un e-commerce de smartphones con manejo de stocks (ingreso-consulta-eliminación) con imágenes de modelos y características de cada uno. <br>Almacena su información en una base de datos (MySQL) y desarrollado con Python y Flask.</p>
+                            <h5 class="card-title text-dark">VW Phones (Web-Full-stack)</h5>
+                            <p class="card-text text-dark">Página web que simula un e-commerce de smartphones con manejo de stocks (ingreso-consulta-eliminación) con imágenes de modelos y características de cada uno. <br>Almacena su información en una base de datos (MySQL) y desarrollado con Python y Flask.</p>
                             <div class="mt-auto">
                                 <button class="btn btn-primary" id="masonry-vwp">Imágenes</button>
                                 <a href="https://github.com/Gabriel071185/Tienda_celulares" class="btn btn-primary">Github</a>
@@ -246,9 +267,9 @@
                 <div class="col-md-4">
                     <div class="card d-flex " style="height: 700px;">
                         <img src="static/img/Django hotel/portada_proyecto.png" class="card-img-top" alt="Imagen de la tarjeta 3">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Django Suites Hotel (Web-Full-stack)</h5>
-                            <p class="card-text">Página web dedicada a servicios de reserva, administración y gestión de habitaciones incluidos roomservice. <br> Se desarrolló con el framework Django y utiliza una base de datos relacional (PostgreSQL).</p>
+                        <div class="card-body d-flex flex-column"  >
+                            <h5 class="card-title text-dark">Django Suites Hotel (Web-Full-stack)</h5>
+                            <p class="card-text text-dark ">Página web dedicada a servicios de reserva, administración y gestión de habitaciones incluidos roomservice. <br> Se desarrolló con el framework Django y utiliza una base de datos relacional (PostgreSQL).</p>
                             <div class="mt-auto">
                                 <button class="btn btn-primary" id="masonry-dsh">Imágenes</button>
                                 <a href="https://github.com/Gabriel071185/Django_Suites_Hotel" class="btn btn-primary">Github</a>
@@ -256,6 +277,27 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Cuarta tarjeta -->
+                <div class="col-md-4 mt-5 ">
+                    <div class="card d-flex " style="height: 750px ">
+                        <img src="static/img/Sisgestra/portada_sisgestra.png" class="card-img-top" alt="Imagen de la tarjeta 4">
+                        <div class="card-body d-flex flex-column" >
+                            <h5 class="card-title text-dark">SisGesTra (Web-Full-stack)</h5>
+                            <p class="card-text text-dark">Página web que emula un sistema de gestión de inventario y personal  para ingreso de datos de control de stock y personal involucrado.
+                                 Se destacó el diseño de una interfaz de usuario intuitiva, la implementación de un sistema de alertas para gestionar su correcto uso y la creación de reportes automatizados mediante envío de correo electronicos.
+                               Para su desarrollo, utilicé Python, Django y PostgreSQL.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-primary" id="masonry-sgt">Imágenes</button>
+                                <a href="https://sisgestra.onrender.com/" class="btn btn-primary">Deploy</a>
+                                <a href="https://github.com/Gabriel071185/sisgestra" class="btn btn-primary">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     </section>
@@ -309,16 +351,19 @@
      
 
 <script>const modalGeosanitas = document.getElementById('geosanitas');
-     const modalVwp = document.getElementById('vwp');
-     const modalDsh = document.getElementById('dsh');
-     
-     const btnGeosanitas = document.getElementById('masonry-geosanitas');
-     const btnVwp = document.getElementById('masonry-vwp');
-     const btnDsh = document.getElementById('masonry-dsh');
-     
-     const closeButtonGeosanitas = document.getElementById('closeButtonGeosanitas');
-     const closeButtonVwp = document.getElementById('closeButtonVwp');
-     const closeButtonDsh = document.getElementById('closeButtonDsh');
+        const modalVwp = document.getElementById('vwp');
+        const modalDsh = document.getElementById('dsh');
+        const modalSgt = document.getElementById('sgt');
+        
+        const btnGeosanitas = document.getElementById('masonry-geosanitas');
+        const btnVwp = document.getElementById('masonry-vwp');
+        const btnDsh = document.getElementById('masonry-dsh');
+        const btnSgt = document.getElementById('masonry-sgt');
+        
+        const closeButtonGeosanitas = document.getElementById('closeButtonGeosanitas');
+        const closeButtonVwp = document.getElementById('closeButtonVwp');
+        const closeButtonDsh = document.getElementById('closeButtonDsh');
+        const closeButtonSgt = document.getElementById('closeButtonSgt');
      
      btnGeosanitas.addEventListener('click', () => {
          modalGeosanitas.hidden = false;
@@ -338,6 +383,12 @@
          window.addEventListener('click', closeModal);
      });
      
+     btnSgt.addEventListener('click', () => {
+         modalSgt.hidden = false;
+         modalSgt.style.height = '100%';
+         window.addEventListener('click', closeModal);
+     });
+     
      closeButtonGeosanitas.addEventListener('click', () => {
          modalGeosanitas.hidden = true;
          window.removeEventListener('click', closeModal);
@@ -353,11 +404,17 @@
          window.removeEventListener('click', closeModal);
      });
      
+     closeButtonSgt.addEventListener('click', () => {
+         modalSgt.hidden = true;
+         window.removeEventListener('click', closeModal);
+     });
+     
      function closeModal(event) {
          if (event.target.classList.contains("masonry-box")) {
              modalGeosanitas.hidden = true;
              modalVwp.hidden = true;
              modalDsh.hidden = true;
+             modalSgt.hidden = true;
              window.removeEventListener('click', closeModal);
          }
      }</script>
