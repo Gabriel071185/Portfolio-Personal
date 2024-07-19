@@ -71,7 +71,7 @@ body {
    }
    
    .icono:hover {
-    transform: scale(1.1); 
+    transform: scale(1.5); 
    }
    
 
@@ -132,13 +132,13 @@ body {
     
     
       .card {
-        
+       
         background: rgb(40,40,55);
         background: linear-gradient(344deg, rgba(40,40,55,1) 0%, rgba(16,16,18,1) 50%);
         box-shadow: 6px 6px 14px #00000036;
         border-radius: 4px;
         color: #F9F9F9;
-        padding: 10px;
+        padding: 5px;
         transition: all .3s;
        }
        
