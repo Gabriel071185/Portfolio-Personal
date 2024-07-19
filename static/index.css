@@ -71,7 +71,7 @@ body {
    }
    
    .icono:hover {
-    transform: scale(1.5); 
+    transform: scale(1.3); 
    }
    
 
@@ -130,7 +130,7 @@ body {
     }
     
     
-    
+
       .card {
        
         background: rgb(40,40,55);
@@ -140,6 +140,10 @@ body {
         color: #F9F9F9;
         padding: 5px;
         transition: all .3s;
+        display: flex !important;
+        flex-direction: row;
+        align-items: stretch !important;
+        height: 100% !important;
        }
        
        .card:hover {
