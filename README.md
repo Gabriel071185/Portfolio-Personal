@@ -1,6 +1,6 @@
 >![img](https://github.com/Gabriel071185/Gabriel071185/blob/main/Banner_Github.png)
 
- ## ⚠️ Español
+ ##  Español
 
 👋 ¡Bienvenidos a mi portfolio de proyectos!  
 <p>Con un resumen breve quiero mostrar mis trabajos y el aprendizaje aplicados en cada uno de ellos.</p>
@@ -9,7 +9,7 @@
 
 ---
 
-## ⚠️ English
+##  English
 
 👋 Welcome to my project portfolio!  
 <p>With a brief summary, I want to showcase my work and the learning applied in each of them.</p>
