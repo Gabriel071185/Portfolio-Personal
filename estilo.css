@@ -135,6 +135,7 @@ html{
 .sobremi .contenido-seccion p span{
     color: #e45a10;
     font-weight: bold;
+    font-family: 'Righteous';
 }
 .sobremi button{
     cursor: pointer;
