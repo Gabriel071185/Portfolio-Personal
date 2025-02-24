@@ -130,12 +130,12 @@ html{
     line-height: 1.5em;
     margin-bottom: 20px;
     margin-top: 25px;
-    font-family: 'Righteous';
+    
 }
 .sobremi .contenido-seccion p span{
     color: #e45a10;
-    font-weight: bold;
-    font-family: 'Righteous';
+    
+    
 }
 .sobremi button{
     cursor: pointer;
