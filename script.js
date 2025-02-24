@@ -19,8 +19,8 @@ function seleccionar(){
 
 function downloadFile() {
     const link = document.createElement('a');
-    link.href = 'cv/Gabriel_Etchegoyen_cv_python_developer.pdf';
-    link.download = 'Gabriel_Etchegoyen_cv_python_developer.pdf';
+    link.href = 'cv/Curriculum Vitae Etchegoyen Gabriel Python Developer.pdf';
+    link.download = 'Curriculum Vitae Etchegoyen Gabriel Python Developer.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
